@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsBlog</title>
+    <title>Neema's First Rail Blog!</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,8 @@
   </head>
 
   <body>
+  	<h1> Welcome to Neema's Rails Blog App! </h1>
+  	<%= render 'shared/nav' %>
     <%= yield %>
   </body>
 </html>
